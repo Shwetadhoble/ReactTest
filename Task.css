@@ -1,0 +1,44 @@
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:lightsalmon;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #e4dfdf;
+    border-radius: 5px;
+}
+
+div > div {
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+}
+div > div > img {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div > div > p:first-of-type {
+    font-weight: bold;
+}
+
+div > div > p:last-of-type {
+    color: #300404;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #000000;
+}

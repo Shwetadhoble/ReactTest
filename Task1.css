@@ -1,0 +1,50 @@
+
+.multi-step-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #89dbe6;
+  }
+  
+ 
+  .step {
+    margin-bottom: 20px;
+  }
+  
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .buttons {
+
+    justify-content: flex-end;
+  }
+  
+ 
+  .previous,
+  .next {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .previous {
+    background-color: #ccc;
+  }
+  
+  .next {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
